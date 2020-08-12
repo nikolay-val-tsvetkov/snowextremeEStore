@@ -1,12 +1,12 @@
 ## Snowextreme EStore
 
-Application for selling snow sports products
+Ecommerce application for selling winter sports products.
 
 ### Technologies
 
 - React
-- Stripe
 - Firebase
+- Stripe
 
 ### Author
 
