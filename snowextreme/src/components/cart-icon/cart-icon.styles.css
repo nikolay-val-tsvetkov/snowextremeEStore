@@ -13,7 +13,10 @@
 }
 .cart-icon .item-count {
   position: absolute;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
   bottom: 12px;
+}
+.mr {
+  margin-left: 2.3rem;
 }

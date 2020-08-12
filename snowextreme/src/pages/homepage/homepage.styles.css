@@ -1,6 +1,9 @@
+.homepage {
+  background: lightblue url('snowboarding.webp') no-repeat fixed center;
+}
 div#carousel {
   perspective: 1200px;
-  background: #100000;
+  /* background: #100000; */
   padding-top: 10%;
   font-size: 0;
   margin-bottom: 3rem;
@@ -8,13 +11,13 @@ div#carousel {
 }
 figure#spinner {
   transform-style: preserve-3d;
-  height: 300px;
+  height: 20rem;
   transform-origin: 50% 50% -500px;
   transition: 1s;
 }
 figure#spinner img {
   width: 40%;
-  max-width: 425px;
+  max-width: 20rem;
   position: absolute;
   left: 30%;
   transform-origin: 50% 50% -500px;
@@ -46,7 +49,7 @@ figure#spinner img:nth-child(8) {
 }
 div#carousel ~ span {
   color: #fff;
-  margin: 5%;
+  margin: 1%;
   display: inline-block;
   text-decoration: none;
   font-size: 2rem;
