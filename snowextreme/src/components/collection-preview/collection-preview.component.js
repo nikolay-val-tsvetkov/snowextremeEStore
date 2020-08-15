@@ -7,7 +7,7 @@ import './collection-preview.styles.css';
 const CollectionPreview = ({ title, items }) => (
   <div className='collection-preview'>
     <h1 className='title'>
-      <Link to='/'>{title.toUpperCase()}</Link>
+      <Link to={'/shop/' + title}>{title.toUpperCase()}</Link>
     </h1>
     <div className='preview'>
       {items

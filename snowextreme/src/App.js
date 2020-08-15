@@ -19,6 +19,7 @@ import {
 
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
+import showCollectionComponent from './components/show-collection/show-collection.component';
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
@@ -53,7 +54,12 @@ class App extends React.Component {
         <Header />
         <Switch>
           <Route exact path='/' component={HomePage} />
-          <Route path='/shop' component={ShopPage} />
+          <Route exact path='/shop' component={ShopPage} />
+          <Route
+            exact
+            path='/shop/:title'
+            component={showCollectionComponent}
+          ></Route>
           <Route
             exact
             path='/checkout'
